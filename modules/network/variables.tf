@@ -1,11 +1,9 @@
 variable "resource_group_name" {
-  description = "Resource Group name"
-  type        = string
+  type = string
 }
 
 variable "location" {
-  description = "Azure region"
-  type        = string
+  type = string
 }
 
 variable "vnet_name" {
